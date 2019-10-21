@@ -399,19 +399,33 @@ body > .container-fluid {
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
-    animation-delay:.8s;
+    animation-delay:.6s;
 }
 .fadeInUp_3 {
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
-    animation-delay: 1.6s;
+    animation-delay: 1.2s;
 }
 .fadeInUp_4 {
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
-    animation-delay:2.4s;
+    animation-delay:1.8s;
+}
+
+.fadeInUp_5 {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+  animation-delay:2.4s;
+}
+
+.fadeInUp_6 {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+  animation-delay:3.0s;
 }
 
 #HTML, #CSSS, #JS, #PH, #CPLUS, #JAVA, #ANDROID {
@@ -519,5 +533,9 @@ body > .container-fluid {
 }
 
 .korean-font {
-    font-family: Handon3gyeopsal300g, serif;
+    font-family: 'Handon3gyeopsal300g';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/Handon3gyeopsal300g.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
 }

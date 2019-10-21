@@ -22,6 +22,8 @@ $(document).ready(function () {
             $("#p_second").addClass("animated animatedFadeInUp fadeInUp_2");
             $("#p_third").addClass("animated animatedFadeInUp fadeInUp_3");
             $("#p_fourth").addClass("animated animatedFadeInUp fadeInUp_4");
+            $("#p_fifth").addClass("animated animatedFadeInUp fadeInUp_5");
+            $("#p_sixth").addClass("animated animatedFadeInUp fadeInUp_6");
         }
 
     });

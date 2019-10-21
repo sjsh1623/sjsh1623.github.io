@@ -398,23 +398,40 @@ body > .container-fluid {
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
 }
+
 .fadeInUp_2 {
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
-    animation-delay:.8s;
+    animation-delay: .6s;
 }
+
 .fadeInUp_3 {
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
-    animation-delay: 1.6s;
+    animation-delay: 1.2s;
 }
+
 .fadeInUp_4 {
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
-    animation-delay:2.4s;
+    animation-delay: 1.8s;
+}
+
+.fadeInUp_5 {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-delay: 2.4s;
+}
+
+.fadeInUp_6 {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-delay: 3.0s;
 }
 
 #HTML, #CSSS, #JS, #PH, #CPLUS, #JAVA, #ANDROID {
