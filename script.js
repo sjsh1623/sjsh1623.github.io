@@ -268,11 +268,11 @@ $(document).ready(function () {
     $(window).scroll(function () {
         // checks if window is scrolled more than 500px, adds/removes solid class
         if ($(this).scrollTop() > 820) {
-            html.animate(.6);  // Number from 0.0 to 1.0 HTML
-            css.animate(.6);  // Number from 0.0 to 1.0 CSS
-            js.animate(0.6);  // Number from 0.0 to 1.0 JavaScript
+            html.animate(0.7);  // Number from 0.0 to 1.0 HTML
+            css.animate(0.7);  // Number from 0.0 to 1.0 CSS
+            js.animate(0.7);  // Number from 0.0 to 1.0 JavaScript
             php.animate(0.4);  // Number from 0.0 to 1.0 PHP
-            java.animate(0.7);  // Number from 0.0 to 1.0 JAVA
+            java.animate(0.8);  // Number from 0.0 to 1.0 JAVA
             and.animate(0.4);  // Number from 0.0 to 1.0 Android Studio
             c.animate(0.8);  // Number from 0.0 to 1.0 C#/C++
         }
