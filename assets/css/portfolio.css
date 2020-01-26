@@ -1,0 +1,539 @@
+
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento");
+@import url('https://fonts.googleapis.com/css?family=Sunflower:500,700&display=swap');
+
+@font-face { font-family: 'Handon3gyeopsal300g'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/Handon3gyeopsal300g.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+.about-tools ul li, .contact-social-icons ul a li {
+  text-align: center; }
+
+.centered {
+  float: none;
+  margin-left: auto;
+  margin-right: auto; }
+
+.break {
+  clear: both;
+  margin-top: 10px; }
+
+@media (min-width: 768px) {
+  .pull-right-sm {
+    float: right !important; }
+
+  .pull-left-sm {
+    float: left !important; } }
+@media (min-width: 992px) {
+  .pull-right-md {
+    float: right !important; }
+
+  .pull-left-md {
+    float: left !important; } }
+@media (min-width: 1200px) {
+  .pull-right-lg {
+    float: right !important; }
+
+  .pull-left-lg {
+    float: left !important; } }
+* {
+  box-sizing: border-box; }
+
+html {
+  position: relative;
+  height: 100%; }
+
+img {
+    width: 100%;
+
+}
+
+
+
+body {
+  height: 100%;
+  font-family: Handon3gyeopsal300g, serif;
+  background-color: #25b79f;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: Handon3gyeopsal300g, serif;
+  color: #07374a; }
+
+p {
+    font-family: Handon3gyeopsal300g, serif;
+  color: #f0f0e6; }
+
+body > .container-fluid {
+  padding: 60px 15px 0; }
+
+.container-fluid .text-muted {
+  margin: 20px 0; }
+
+.btn:focus, a:focus {
+  outline: none !important; }
+
+.navbar {
+  height: 70px;
+  background-color: transparent;
+  background: transparent;
+  border: none;
+  color: #f0f0e6;
+  z-index: 100;
+  margin-bottom: 0;
+  border-radius: 0;
+  transition: background-color 1s ease 0s; }
+
+.navbar-brand {
+  display: none;
+  margin-top: 10px;
+  color: #f0f0e6;
+  font-weight: 400; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #f0f0e6;
+  font-weight: 500;
+  font-size: 1em;
+  text-transform: lowercase;
+  margin: 10px 5px 5px 5px;
+  border-radius: 5px;
+  transition: all 0.3s; }
+
+.navbar-default .navbar-nav > li > a:before, .navbar-default .navbar-nav > li > a:after
+{
+  position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #f0f0e6;
+    transition: all 0.3s;
+}
+
+.navbar-default .navbar-nav > li > a::before
+{
+  left: 0px;
+  top: 0px;
+}
+
+.navbar-default .navbar-nav > li > a:after
+{
+  right: 0px;
+  bottom: 0px;
+}
+
+.navbar-default .navbar-nav > li > a:hover::before, .navbar-default .navbar-nav > li > a:hover::after
+{
+  opacity: 1;
+  width: 100%
+}
+
+
+.navbar-default .navbar-toggle {
+  border-color: #f0f0e6; }
+
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: #07374a; }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    color: #f0f0e6;
+    background-color: #f0f0e6; }
+
+.navbar-default .navbar-collapse.collapse.in ul {
+  background-color: #07374a; }
+
+/* Solid class attached on scroll past first section */
+.navbar.solid {
+  background-color: #07374a;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px rgba(7, 55, 74, 0.2); }
+  .navbar.solid .navbar-brand {
+    display: inline-block;
+    color: #f0f0e6;
+    transition: color 1s ease 0s; }
+  .navbar.solid .navbar-nav > li > a {
+    color: #f0f0e6;
+    transition: color 1s ease 0s; }
+
+.cover {
+  padding: 10% 0 10% 0; }
+  .cover.top {
+    padding: 15% 0 10% 0;
+    height: 100vh;
+    display: flex;
+    background-color: #25b79f; }
+  .cover.bottom {
+    padding: 10% 0 10% 0; }
+
+.headline {
+  padding-top: 6.25em; }
+  @media screen and (min-width: 768px) {
+    .headline {
+      padding-top: 3.75em; } }
+  @media screen and (min-width: 992px) {
+    .headline {
+      padding-top: 1.5625em; } }
+  @media screen and (min-width: 1200px) {
+    .headline {
+      padding-top: 0px; } }
+
+#about {
+  background-color: #07374a; }
+  #about h2 {
+    color: #25b79f; }
+
+.profile-img {
+  margin-bottom: 15px;
+  width: 120px; }
+
+.about, .about-info, .about-tools, .about-last, .about-progress {
+  padding: 4% 10% 1% 10%;
+  font-size: 1.25em; }
+
+.about-tools {
+    padding-top: 4.375em;
+    font-weight: 700;
+    font-size: 1.5em; }
+
+@media screen and (min-width: 992px) {
+      .about-tools {
+        padding-top: 5.625em; } }
+
+.about-tools ul:first-child {
+      padding-left: 0px; }
+
+.about-tools ul {
+      color: #25b79f;
+      list-style: none; }
+
+.about-tools ul li {
+        padding-top: 0.75em; }
+
+.about-last {
+    padding-top: 3.125em;
+    padding-bottom: 0;
+    font-size: 1.125em; }
+
+@media screen and (min-width: 992px) {
+      .about-last {
+        padding-top: 0; } }
+
+.about-last p {
+      color: #25b79f; }
+
+.about-progress {
+  padding-top: 4em;
+}
+
+#portfolio {
+  background-color: #25b79f; }
+  #portfolio h2 {
+    padding-bottom: 1.25em; }
+
+
+
+#contact {
+  background-color: #07374a; }
+  #contact h2 {
+    color: #25b79f; }
+
+.contact-social-icons p {
+  color: #25b79f; }
+.contact-social-icons ul a {
+  color: #25b79f;
+  list-style: none; }
+  .contact-social-icons ul a:hover {
+    color: #f0f0e6; }
+  .contact-social-icons ul a li {
+    display: inline-block;
+    padding: 2%; }
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: #07374a;
+  color: #f0f0e6; }
+
+#scrollIcon, #scrollTopIcon {
+  margin-top: 200px;
+  padding: 10px;
+  font-size: 1.5em;
+  color: #07374a;
+  border: solid 2px #07374a;
+  border-radius: 50%; }
+
+#scrollTopIcon {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #f0f0e6;
+  border-color: #f0f0e6; }
+
+.back-to-top {
+  display: none; }
+  .back-to-top.visible {
+    display: block; }
+
+.fade-in {
+    animation: fadeIn ease 3.5s;
+    -webkit-animation: fadeIn ease 3.5s;
+    -moz-animation: fadeIn ease 3.5s;
+    -o-animation: fadeIn ease 3.5s;
+    -ms-animation: fadeIn ease 3.5s;
+}
+
+.fade-in_1 {
+    opacity: 0;
+    opacity: 1 \9; /*just in case ie*/
+    animation: fadeIn ease 3.5s;
+    -webkit-animation: fadeIn ease 3.5s;
+    -moz-animation: fadeIn ease 3.5s;
+    -o-animation: fadeIn ease 3.5s;
+    -ms-animation: fadeIn ease 3.5s;
+    animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.shadow {
+    -webkit-filter: drop-shadow(5px 60px 35px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(5px 60px 35px rgba(0, 0, 0, 0.4));
+}
+
+.p-padding{
+    padding-bottom: 2.5%;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp_1 {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+.fadeInUp_2 {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-delay: .6s;
+}
+
+.fadeInUp_3 {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-delay: 1.2s;
+}
+
+.fadeInUp_4 {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-delay: 1.8s;
+}
+
+.fadeInUp_5 {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-delay: 2.4s;
+}
+
+.fadeInUp_6 {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-delay: 3.0s;
+}
+
+#HTML, #CSSS, #JS, #PH, #CPLUS, #JAVA, #ANDROID {
+  margin: 10px;
+  width: 140px;
+  height: 140px;
+  position: relative;
+}
+ .vertical {
+   display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+ }
+
+ figure.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+}
+
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    text-align: center;
+    color: #25b79f;
+}
+
+.content {
+  position: relative;
+  margin: auto;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.8);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-family: Handon3gyeopsal300g, serif;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+  font-family: Handon3gyeopsal300g, serif;
+}
+
+.fadeIn-left{
+  left: 20%;
+}
+
+.font{
+  font-family: Handon3gyeopsal300g, serif;
+}

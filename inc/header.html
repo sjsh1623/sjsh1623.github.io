@@ -1,17 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/css/uikit.min.css" />
+<!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/css/uikit.min.css"/>
+<link rel="stylesheet" href="../assets/css/header.css">
 
-    <!-- UIkit JS -->
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
-</head>
-<body>
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
 
+<div class="uk-position-relative">
+    <div class="uk-position-top">
+        <nav class="uk-navbar-container uk-navbar-transparent uk-margin" uk-navbar>
+            <div class="uk-navbar-left">
+                <!- 로고-->
+                <a class="uk-navbar-item uk-logo logoImg" href="/"><img src="../assets/img/Andrew.png"
+                                                                        alt="Andrew Code (Logo)"></a>
+            </div>
 
-</body>
-</html>
+            <div class="uk-navbar-right">
+                <button type="button" class="headerButton gap" onclick="location.href='./portfolioEN.html'">About
+                </button>
+                <button type="button" class="headerButton addMargin">Contact</button>
+            </div>
+        </nav>
+    </div>
+</div>

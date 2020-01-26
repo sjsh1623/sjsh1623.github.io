@@ -1,0 +1,30 @@
+.logoImg {
+    max-width: 30%;
+    height: auto;
+    margin-left: 50px
+}
+
+.card_left {
+    float: left;
+    width: 20%;
+    margin-top: 25px;
+}
+
+.card_space {
+    float: left;
+    width: 7%;
+}
+
+.card_right {
+    float: left;
+    width: 70%;
+}
+
+.introCard {
+    border: 1px solid white;
+    margin: 10% auto;
+}
+
+.clear {
+    clear: both;
+}
