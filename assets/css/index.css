@@ -1,7 +1,8 @@
-.logoImg {
-    max-width: 30%;
-    height: auto;
-    margin-left: 50px
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .card_left {
@@ -17,14 +18,27 @@
 
 .card_right {
     float: left;
-    width: 70%;
+    width: 73%;
 }
 
 .introCard {
-    border: 1px solid white;
-    margin: 10% auto;
+    margin: auto;
 }
 
 .clear {
     clear: both;
+}
+
+.explain {
+    text-align: center;
+    color: white;
+}
+
+div .uk-tab > .uk-active > a {
+    color: white;
+    border-color: white;
+}
+
+div .uk-subnav-pill>.uk-active>a {
+    background-color: #86C232;
 }
