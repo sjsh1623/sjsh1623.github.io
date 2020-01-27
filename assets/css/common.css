@@ -1,9 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1&display=swap');
+
 html {
+    font-family: 'Gothic A1', sans-serif !important;
     background-color: #222629 !important;
     min-height: 1000px;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
 }

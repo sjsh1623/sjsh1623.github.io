@@ -1,3 +1,9 @@
+.container {
+    width: 80%;
+    min-height: 1000px;
+    margin: auto;
+}
+
 .logo {
     display: block;
     margin-left: auto;
@@ -6,33 +12,13 @@
 
 }
 
-.card_left {
-    float: left;
-    width: 20%;
-    margin-top: 25px;
-}
-
-.card_space {
-    float: left;
-    width: 7%;
-}
-
-.card_right {
-    float: left;
-    width: 73%;
-}
-
-.introCard {
-    margin: auto;
-}
-
-.clear {
-    clear: both;
-}
-
 .explain {
     text-align: center;
     color: white;
+}
+
+.category {
+    margin-top: 100px;
 }
 
 div .uk-tab > .uk-active > a {
@@ -40,21 +26,32 @@ div .uk-tab > .uk-active > a {
     border-color: white;
 }
 
-div .uk-subnav-pill>.uk-active>a {
+div .uk-subnav-pill > .uk-active > a {
     background-color: #86C232;
 }
 
-div .thumbNail{
-    min-height: 250px;
-    background-color: #222629;
-}
-
 div .uk-card-default.uk-card-hover:hover {
-    background-color: #fff;
+    background-color: #6B6E70;
     box-shadow: 0 17px 22px rgba(255, 255, 255, 0.17);
 }
 
-a{
-    text-decoration: none;
-    text-underline: none;
+.footer {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 30px;
 }
+
+div .uk-card-default {
+    background-color: #222629;
+    color: white;
+}
+
+div .uk-card-default .uk-card-title {
+    color: white;
+}
+
+div .uk-card-default {
+    box-shadow: 0 5px 15px rgba(184, 176, 181, .15);
+}
+

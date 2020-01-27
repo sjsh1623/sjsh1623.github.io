@@ -11,8 +11,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -30,7 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/ezen03" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -54,7 +54,7 @@
       <updated>1580011188040</updated>
       <workItem from="1580011189328" duration="763000" />
       <workItem from="1580025234085" duration="18824000" />
-      <workItem from="1580089256462" duration="9303000" />
+      <workItem from="1580089256462" duration="15014000" />
     </task>
     <servers />
   </component>
@@ -70,10 +70,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="587" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/-1920.0.1280.680@0.0.1920.1040" timestamp="1580011219478" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1580039817658">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1580102886504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1280.680@0.0.1920.1040" timestamp="1580039817658" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.2.1280.680@0.0.1920.1040" timestamp="1580102886504" />
     <state x="339" y="244" key="new project wizard" timestamp="1580011274302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

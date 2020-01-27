@@ -38,3 +38,24 @@ $(document).ready(function () {
 $(document).ready(function () {
     $("#database").load("inc/category/DataBase.html")
 });
+
+/*
+* This is a function to call DataBase html
+* This function also require JQuery
+* depth level : 1
+*/
+
+$(document).ready(function () {
+    $("#portfolio").load("inc/category/Portfolio.html")
+});
+
+/*
+* This is a function to call Setup html
+* This function also require JQuery
+* depth level : 1
+*/
+
+$(document).ready(function () {
+    $("#setup").load("inc/category/Setup.html")
+});
+
