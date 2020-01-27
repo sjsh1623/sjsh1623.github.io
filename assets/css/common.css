@@ -5,3 +5,11 @@ html {
     background-color: #222629 !important;
     min-height: 1000px;
 }
+
+ .uk-link, a {
+    text-decoration: none !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

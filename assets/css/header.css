@@ -44,10 +44,11 @@
 }
 
 .uk-accordion-title:focus, .uk-accordion-title:hover {
-    color:#86C232;
+    color: #86C232;
 
 }
 
 .uk-accordion-title {
     color: white;
 }
+
