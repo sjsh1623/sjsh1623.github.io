@@ -4,7 +4,7 @@
 * depth level : 1
 */
 $(document).ready(function () {
-    $("#header").load("inc/header.html")
+    $("#header").load("../inc/header.html")
 });
 
 
@@ -15,7 +15,7 @@ $(document).ready(function () {
 */
 
 $(document).ready(function () {
-    $("#frontEnd").load("inc/category/FrontEnd.html")
+    $("#frontEnd").load("../inc/category/FrontEnd.html")
 });
 
 /*
@@ -26,7 +26,7 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-    $("#backEnd").load("inc/category/BackEnd.html")
+    $("#backEnd").load("../inc/category/BackEnd.html")
 });
 
 /*
@@ -36,7 +36,7 @@ $(document).ready(function () {
 */
 
 $(document).ready(function () {
-    $("#database").load("inc/category/DataBase.html")
+    $("#database").load("../inc/category/DataBase.html")
 });
 
 /*
@@ -46,7 +46,7 @@ $(document).ready(function () {
 */
 
 $(document).ready(function () {
-    $("#portfolio").load("inc/category/Portfolio.html")
+    $("#portfolio").load("../inc/category/Portfolio.html")
 });
 
 /*
@@ -56,6 +56,8 @@ $(document).ready(function () {
 */
 
 $(document).ready(function () {
-    $("#setup").load("inc/category/Setup.html")
+    $("#setup").load("../inc/category/Setup.html")
 });
+
+
 

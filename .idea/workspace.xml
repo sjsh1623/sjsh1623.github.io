@@ -7,12 +7,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../sjsh1623.github.io\exportToHTML" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -35,9 +39,12 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Github\sjsh1623.github.io\Markdown" />
+      <recent name="E:\Github\sjsh1623.github.io\Markdown\document" />
       <recent name="E:\Github\sjsh1623.github.io\assets\css" />
       <recent name="E:\Github\sjsh1623.github.io\assets\js" />
     </key>
@@ -54,7 +61,10 @@
       <updated>1580011188040</updated>
       <workItem from="1580011189328" duration="763000" />
       <workItem from="1580025234085" duration="18824000" />
-      <workItem from="1580089256462" duration="16827000" />
+      <workItem from="1580089256462" duration="20370000" />
+      <workItem from="1580115619225" duration="7287000" />
+      <workItem from="1580129108012" duration="10000" />
+      <workItem from="1580133786453" duration="1648000" />
     </task>
     <servers />
   </component>
@@ -70,15 +80,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="587" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/-1920.0.1280.680@0.0.1920.1040" timestamp="1580011219478" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580135436015">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.2.1280.680@0.0.1920.1040" timestamp="1580135436015" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1580111142421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1280.680@0.0.1920.1040" timestamp="1580039817658" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.2.1280.680@0.0.1920.1040" timestamp="1580111142421" />
-    <state x="339" y="244" key="new project wizard" timestamp="1580011274302">
+    <state x="440" y="95" key="SettingsEditor" timestamp="1580115939177">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1636" y="2" key="SettingsEditor/0.0.1920.1040/-1920.2.1280.680@-1920.2.1280.680" timestamp="1580115543189" />
+    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040/-1920.2.1280.680@0.0.1920.1040" timestamp="1580115939177" />
+    <state x="339" y="244" key="new project wizard" timestamp="1580133833556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="339" y="244" key="new project wizard/0.0.1920.1040/-1920.0.1280.680@0.0.1920.1040" timestamp="1580011274302" />
+    <state x="339" y="244" key="new project wizard/0.0.1920.1040/-1920.2.1280.680@0.0.1920.1040" timestamp="1580133833556" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1580041539091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
