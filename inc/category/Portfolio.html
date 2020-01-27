@@ -9,23 +9,87 @@
         </div>
         <div>
             <ul class="uk-subnav uk-subnav-pill" uk-margin>
-                <!- Get Code-->
-                <li uk-filter-control="filter: [data-code='HTML']; group: data-color"><a href="#">HTML</a></li>
-                <li uk-filter-control="filter: [data-code='CSS']; group: data-color"><a href="#">CSS</a></li>
+
+                <!-
+                This is the part where I divide category
+                Please Copy and Paste to add another category
+                -->
+
+                <li uk-filter-control="filter: [data-code='Personal']; group: data-color"><a href="#">Andrew</a></li>
+                <li uk-filter-control="filter: [data-code='group']; group: data-color"><a href="#">Group(EZEN)</a></li>
             </ul>
         </div>
+
+        <!-
+        This is the part where I divide category
+        Please Copy and Paste to add another category
+
+        ** WARNING **
+        This is the second category
+        In addition following code is relate with code above
+        -->
+
         <div>
             <ul class="uk-subnav uk-subnav-pill" uk-margin>
-                <li uk-filter-control="filter: [data-tool='Eclipse']; group: size"><a href="#">Eclipse</a></li>
-                <li uk-filter-control="filter: [data-tool='IntelliJ']; group: size"><a href="#">IntelliJ IDEA</a></li>
+                <li uk-filter-control="filter: [data-tool='FrontEnd']; group: size"><a href="#">FrontEnd</a>
+                </li>
+                <li uk-filter-control="filter: [data-tool='BackEnd']; group: size"><a href="#">BackEnd</a></li>
+                <li uk-filter-control="filter: [data-tool='FrontEnd']; group: size"><a href="#">Database</a></li>
+                <li uk-filter-control="filter: [data-tool='Other']; group: size"><a href="#">Others</a></li>
             </ul>
         </div>
     </div>
 
+    <!---------------------------------------------------code divider------------------------------------------------------------------>
+    <!-- CARDS START FROM HERE-->
+
+    <!--
+    This is the part where I place the card
+
+    Please use this code following :
+
+    <a href="./portfolio/{something}.html">
+        <li data-code="{data-code}">
+            <div>
+                <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                    <h3 class="uk-card-title">{data-code}</h3>
+                    <p>{content}</p>
+                </div>
+            </div>
+        </li>
+    </a>
+    -->
+
     <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid="masonry: true">
-        <li data-color="I" data-size="large">
-            <div class="uk-card uk-card-default uk-card-body">
-                <div class="uk-position-center">Item</div>
+        <!-
+        Please add code HERE!!!!
+        -->
+
+
+        <li data-code="MySQL">
+            <a href="">
+                <div>
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">MySQL</h3>
+                        <p>This card is for the test</p>
+                    </div>
+                </div>
+            </a>
+        </li>
+        <li data-code="MySQL" data-tool="IntelliJ">
+            <div>
+                <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                    <h3 class="uk-card-title">MySQL with intellij</h3>
+                    <p>This card is for the test</p>
+                </div>
+            </div>
+        </li>
+        <li data-code="MySQL" data-tool="workBench">
+            <div>
+                <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                    <h3 class="uk-card-title">MySQL with WorkBench</h3>
+                    <p>This card is for the test</p>
+                </div>
             </div>
         </li>
     </ul>

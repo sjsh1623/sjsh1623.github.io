@@ -19,7 +19,7 @@
 
 <!- Container for the context -->
 <div class="container">
-    <div class="logo"><img src="assets/img/Andrew.png" alt="Andrew Code"></div>
+    <div class="logo"><img class="logo" src="assets/img/Andrew.png" alt="Andrew Code"></div>
 
     <div class="explain">
         <p>This is webpage is for Andrew Lim<br>
@@ -34,14 +34,13 @@
             <li class="uk-active"><a href="#">FrontEnd</a></li>
             <li><a href="#">BackEnd</a></li>
             <li><a href="#">DataBase</a></li>
+            <li><a href="#">Setup</a></li>
             <li><a href="#">Portfolio</a></li>
         </ul>
         <ul id="my-id" class="uk-switcher uk-margin">
-            <li><a href="#" id="autoplayer" data-uk-switcher-item="next"></a>
-                <div id="frontEnd"></div>
-            </li>
-            <li>Content 2</li>
-            <li>Content 3</li>
+            <li><div id="frontEnd"></div></li>
+            <li><div id="backEnd"></div></li>
+            <li><div id="database"></div></li>
             <li>Content 3</li>
         </ul>
     </div>
@@ -50,5 +49,6 @@
 
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <script src="assets/js/include.js"></script>
+<script src="assets/js/index.js"></script>
 </body>
 </html>

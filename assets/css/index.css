@@ -2,7 +2,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
+
 }
 
 .card_left {
@@ -41,4 +42,19 @@ div .uk-tab > .uk-active > a {
 
 div .uk-subnav-pill>.uk-active>a {
     background-color: #86C232;
+}
+
+div .thumbNail{
+    min-height: 250px;
+    background-color: #222629;
+}
+
+div .uk-card-default.uk-card-hover:hover {
+    background-color: #fff;
+    box-shadow: 0 17px 22px rgba(255, 255, 255, 0.17);
+}
+
+a{
+    text-decoration: none;
+    text-underline: none;
 }
