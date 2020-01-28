@@ -62,3 +62,13 @@ div .uk-card-default {
 .container .md-fences {
     background-color: #6B6E70;
 }
+
+.category {
+    min-height: 500px;
+}
+
+.markdown{
+    width: 80%;
+    margin: auto;
+    color: white;
+}
