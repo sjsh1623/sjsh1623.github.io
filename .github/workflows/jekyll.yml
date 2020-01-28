@@ -1,4 +1,4 @@
-name: Jekyll site CI
+name: sjsh1623.github.io
 
 on: [push]
 
