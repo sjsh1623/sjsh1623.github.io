@@ -2,21 +2,29 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:300,400&subset=latin-ext';
 @import 'https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css';
 
-.markdown :root {
+:root {
     font-size: 20px;
 }
 
+.markdown { /* TEXT PARENT */
+    margin: 0 auto;
+    font-family: "Fira Sans", "Verdana", "Geneva", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: left;
+    width: 80%;
+}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
     margin: 0;
     padding: 0;
     font-weight: normal;
-    color: white;
+    color: white
 }
 
 .markdown h1 {
@@ -59,7 +67,7 @@ h6 {
     font-size: 1rem;
 }
 
-.markdown .markdownp {
+.markdown p {
     margin-top: 0;
     margin-bottom: 1rem;
 }
@@ -114,55 +122,61 @@ h6 {
 .markdown samp,
 .markdown var {
     font-size: 95%;
+    font-family: "Roboto Mono", monospace;
     font-weight: 300;
     color: white;
 }
 
 .markdown pre {
     display: block;
+    margin: 1rem -2rem;
     padding: 1rem 2rem;
-    border:none;
-    background-color: #474B4F;
+    background-color: #222629;
+    border: none;
     border-left: 0.1rem solid #888;
-    color: white;
+    box-shadow: 0 17px 22px rgba(255, 255, 255, 0.1);
 }
 
 .markdown p code {
     padding: 0 0.2em 0.1em;
-    background-color: #474B4F;
+    background-color: #eee;
 }
 
 .markdown p var {
     padding: 0 0.2em 0.1em;
-    background-color: #474B4F;
+    background-color: #eee;
     font-weight: bolder;
     font-style: normal;
 }
 
 .markdown p samp {
     padding: 0 0.2em 0.1em;
-    background-color: white;
-    color: white;
+    margin: 0 0.1em;
+    background-color: #666;
+    color: #eee;
 }
 
 .markdown kbd {
     position: relative;
     padding: 0.2em 0.2em 0.1em 0.2em;
+    margin: 0 0.1em;
     bottom: 0.125em;
+    font-family: "Fira Sans", "Verdana", "Geneva", sans-serif;
     font-size: 0.8em;
-    background-color: #474B4F;
+    background-color: #eee;
     border-radius: 0.2em;
     border-bottom: 0.05em solid #aaa;
-    color: white;
 }
 
 .markdown blockquote {
+    margin: 1rem -2rem;
     padding: 1rem 2rem;
-    background-color: #474B4F;
-    color: white;
+    background-color: #222629;
+    color: #666;
     font-size: 1.2rem;
     font-style: italic;
     line-height: 1.5;
+
 }
 
 .markdown blockquote::before {
@@ -173,7 +187,7 @@ h6 {
     left: -1.3rem;
     top: -0.5rem;
     font-size: 2em;
-    color: white;
+    color: #888;
 }
 
 .markdown blockquote::after {
@@ -185,7 +199,7 @@ h6 {
     left: 0.2rem;
     font-size: 2em;
     line-height: 0;
-    color: white;
+    color: #888;
 }
 
 .markdown abbr[title] {
@@ -216,7 +230,7 @@ h6 {
     width: 2em;
     margin-left: -2.5em;
     font-weight: bolder;
-    color: white;
+    color: #888;
     text-align: right;
 }
 
@@ -228,12 +242,13 @@ h6 {
     width: 2em;
     margin-left: -2.5em;
     font-weight: bolder;
-    color: white;
+    color: #888;
     text-align: right;
 }
 
 .markdown ol {
     list-style: none;
+    margin-left: -2em;
     padding-left: 2em;
 }
 
@@ -254,14 +269,21 @@ h6 {
     width: 2em;
     margin-left: -2.5em;
     font-weight: bolder;
-    color: white;
+    color: #888;
     text-align: right;
 }
 
+.markdown ol ol,
+.markdown ol ul,
+.markdown ul ol,
+.markdown ul ul {
+    margin: 0.5em 0;
+}
 
 .markdown img {
     display: block;
     width: calc(100% + 4rem);
+    margin: 1rem -2rem;
 }
 
 .markdown figure {
@@ -302,7 +324,7 @@ h6 {
     caption-side: bottom;
     text-align: center;
     font-style: italic;
-    color: white;
+    color: #666;
 }
 
 .markdown tr {
@@ -320,8 +342,8 @@ h6 {
 }
 
 .markdown tbody tr:hover,
-.markdown tfoot tr:hover {
-    background-color: #25b79f;
+tfoot tr:hover {
+    background-color: #eee;
 }
 
 .markdown td, th {
@@ -342,7 +364,7 @@ h6 {
     height: 0;
     width: 10rem;
     border: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
     margin: 2rem auto;
 }
 
@@ -355,8 +377,3 @@ h6 {
     text-align: center;
     font-size: 2rem;
 }*/
-
-.markdown {
-    margin-top: 100px;
-    margin-bottom: 250px;
-}

@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Gothic+A1&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
 
 html {
-    font-family: 'Gothic A1', sans-serif !important;
+    font-family: 'Nanum Gothic', sans-serif !important;
     background-color: #222629 !important;
     min-height: 1000px;
 }
 
- .uk-link, a {
+.uk-link, a {
     text-decoration: none !important;
 }
 
