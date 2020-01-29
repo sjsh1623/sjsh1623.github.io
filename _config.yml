@@ -1,24 +1,46 @@
 ### Site Settings ###
-source              : ../
-collections_dir     : docs
-data_dir            : docs/_data
-baseurl             : "/portfolYOU-test"
-repository          : YoussefRaafatNasry/portfolYOU
+title               : portfolYOU
+description         : >-
+                      "I turn coffee :coffee: into code,
+                      use tabs over spaces
+                      and never broke production."
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : sjsh1623/sjsh1623.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+
+
+### Plugins ###
+plugins:
+  - jemoji
 
 
 ### Navbar Settings ###
-nav_exclude:
-  - docs/pages/tags.html
-  - docs/pages/404.html
-  - docs/pages/index.md
-  - docs/pages/documentation/**
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
 
 
 ### Author Info ###
 author:
-  name              : YRN
-  image             : https://avatars2.githubusercontent.com/u/41103290
-  github            : YoussefRaafatNasry
+  name              : AndrewLim
+  image             : https://bit.ly/2KCvgVJ
+  behance           : your_username
+# dribbble          : your_username
+  email             : username@domain.com
+  facebook          : your_username
+  github            : your_username
+# gitlab            : your_username
+# instagram         : your_username
+  linkedin          : your_username
+  medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+  twitter           : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
 
 
 ### Posts ###
@@ -30,8 +52,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  elements:
-    output: true
 
 
 ### Defaults for collections ###
@@ -41,24 +61,11 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope:
-      path: ""
-      type: "elements"
-    values:
-      layout: "element"
 
 
-plugins:
-  - jekyll-default-layout
-  - jekyll-gist
-  - jekyll-github-metadata
-  - jekyll-include-cache
-  - jemoji
-
-
+### Exclude from processing ###
 exclude:
-  - test/
-  - docs/Gemfile
-  - docs/Gemfile.lock
-  - docs/_site/
-  - docs/.sass-cache/
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
