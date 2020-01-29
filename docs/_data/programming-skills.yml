@@ -16,4 +16,4 @@
 
 - name: MySql
   percentage: 70
-  color: light
+  color: info

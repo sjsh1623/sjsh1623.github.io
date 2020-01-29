@@ -6,7 +6,7 @@ data_dir: docs/_data
 description: >-
   "This is webpage is for Andrew Lim
   The Purpose of this webpage is to record errors and some setups
-  Also it is for "Portfolio"
+  Also it is for "Portfolio""
 baseurl: ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository: sjsh1623/sjsh1623.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 
