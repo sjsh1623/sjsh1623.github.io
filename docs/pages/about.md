@@ -16,5 +16,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </div>
 
 <div class="row">
-{% include _data/timeline.html %}
+{% include about/timeline.html %}
 </div>
