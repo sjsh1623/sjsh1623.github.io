@@ -1,6 +1,6 @@
 - name: C++
   percentage: 80
-  color: secondary\
+  color: secondary
 
 - name: Java
   percentage: 80
