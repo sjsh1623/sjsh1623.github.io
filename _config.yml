@@ -1,14 +1,14 @@
 ### Site Settings ###
-title               : Andrew Code
-source              : ../
-collections_dir     : docs
-data_dir            : docs/_data
-description         : >-
-                      "This is webpage is for Andrew Lim
+title: Andrew Code
+source: ../
+collections_dir: docs
+data_dir: docs/_data
+description: >-
+  "This is webpage is for Andrew Lim
   The Purpose of this webpage is to record errors and some setups
-  Also it is for "Portfolio""
-baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : sjsh1623/sjsh1623.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+  Also it is for "Portfolio"
+baseurl: ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository: sjsh1623/sjsh1623.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 
 
 ### Plugins ###
@@ -25,23 +25,23 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : AndrewLim
-  image             : assets/noname.png
-  behance           : your_username
-# dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
-  github            : your_username
-# gitlab            : your_username
-# instagram         : your_username
-  linkedin          : your_username
-  medium            : your_username
-# soundcloud        : your_username
-# spotify           : your_username
-# stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
-# twitch            : your_username
-  twitter           : your_username
+  name: AndrewLim
+  image: assets/noname.png
+  behance: your_username
+  # dribbble          : your_username
+  email: username@domain.com
+  facebook: your_username
+  github: your_username
+  # gitlab            : your_username
+  # instagram         : your_username
+  linkedin: your_username
+  medium: your_username
+  # soundcloud        : your_username
+  # spotify           : your_username
+  # stackoverflow     : your_user_id
+  # tumblr            : your_username.tumblr.com
+  # twitch            : your_username
+  twitter: your_username
 # vimeo             : your_username
 # youtube           : your_channel_name
 
