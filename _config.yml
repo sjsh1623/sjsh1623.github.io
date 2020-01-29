@@ -11,6 +11,11 @@ repository          : sjsh1623/sjsh1623.github.io     # Change to <your-username
 ### Plugins ###
 plugins:
   - jemoji
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jemoji
 
 
 ### Navbar Settings ###
