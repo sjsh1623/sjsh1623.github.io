@@ -1,5 +1,8 @@
 ### Site Settings ###
 title               : Andrew Code
+source              : ../
+collections_dir     : docs
+data_dir            : docs/_data
 description         : >-
                       "I turn coffee :coffee: into code,
                       use tabs over spaces
@@ -10,11 +13,6 @@ repository          : sjsh1623/sjsh1623.github.io     # Change to <your-username
 
 ### Plugins ###
 plugins:
-  - jemoji
-  - jekyll-default-layout
-  - jekyll-gist
-  - jekyll-github-metadata
-  - jekyll-include-cache
   - jemoji
 
 
@@ -27,8 +25,8 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : Andrew Lim
-  image             :
+  name              : AndrewLim
+  image             : https://bit.ly/2KCvgVJ
   behance           : your_username
 # dribbble          : your_username
   email             : username@domain.com
@@ -66,11 +64,6 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope:
-      path: ""
-      type: "elements"
-    values:
-      layout: "element"
 
 
 ### Exclude from processing ###
@@ -79,7 +72,3 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
-  - docs/Gemfile
-  - docs/Gemfile.lock
-  - docs/_site/
-  - docs/.sass-cache/
