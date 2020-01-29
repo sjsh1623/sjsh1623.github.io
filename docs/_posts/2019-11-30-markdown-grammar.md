@@ -1,6 +1,6 @@
 ---
 title: Markdown Grammar
-tags: [Markdown]
+tags: [Markdown, project]
 style: fill
 color: secondary
 description: How to use markdown?
