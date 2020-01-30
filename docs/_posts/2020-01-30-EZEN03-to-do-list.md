@@ -1,5 +1,5 @@
 ---
-title: 4 Lessons After 11 Years in Silicon Valley
+title: Project Workflow (Korean)
 tags: [Project, DataBase]
 style: fill
 color: success
