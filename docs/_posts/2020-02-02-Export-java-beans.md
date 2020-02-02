@@ -47,3 +47,15 @@ AND
 ```
 int만 걸러내며 옆에 코멘트를 달아놓게 만들었습니다.
 ```
+
+### MAPPER에 result 값을 return 합니다.
+```mysql
+SELECT
+  COLUMN_NAME, DATA_TYPE, CONCAT(" <result property=\" ", COLUMN_NAME, "\" column=\" ", COLUMN_NAME, " \" />") 
+FROM
+  INFORMATION_SCHEMA.COLUMNS 
+WHERE
+  TABLE_SCHEMA = 'tieshoe'
+AND
+  TABLE_NAME = 'YourTable';
+```
