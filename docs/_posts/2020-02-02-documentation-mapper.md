@@ -23,11 +23,11 @@ description: EZEN 03 Mapper 정규화
 
 Mapper의 이름은
 
-{DB table 이름}Mapper.xml 로 통일합니다.
+    **{DB table 이름}Mapper.xml** 로 통일합니다.
 
 resultMap id는
 
-{DBtable 이름}Map로 통일합니다.
+    **{DBtable 이름}Map**로 통일합니다.
 
 
 
