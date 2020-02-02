@@ -27,12 +27,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Github\sjsh1623.github.io\docs\_posts" />
-      <recent name="E:\Github\sjsh1623.github.io\assets" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Github\sjsh1623.github.io" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Github\sjsh1623.github.io\docs\_posts" />
+      <recent name="E:\Github\sjsh1623.github.io\docs\_projects" />
+      <recent name="E:\Github\sjsh1623.github.io\assets" />
       <recent name="E:\Github\sjsh1623.github.io" />
     </key>
   </component>
@@ -51,7 +52,7 @@
       <workItem from="1580349539136" duration="698000" />
       <workItem from="1580611343101" duration="983000" />
       <workItem from="1580612700488" duration="1096000" />
-      <workItem from="1580621046514" duration="306000" />
+      <workItem from="1580621046514" duration="1364000" />
     </task>
     <servers />
   </component>
