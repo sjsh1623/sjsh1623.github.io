@@ -27,12 +27,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Github\sjsh1623.github.io" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Github\sjsh1623.github.io\docs\_posts" />
       <recent name="E:\Github\sjsh1623.github.io\assets" />
+      <recent name="E:\Github\sjsh1623.github.io" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Github\sjsh1623.github.io" />
     </key>
   </component>
@@ -48,7 +48,8 @@
       <updated>1580260566481</updated>
       <workItem from="1580260570776" duration="15469000" />
       <workItem from="1580302795459" duration="259000" />
-      <workItem from="1580349539136" duration="255000" />
+      <workItem from="1580349539136" duration="698000" />
+      <workItem from="1580611343101" duration="935000" />
     </task>
     <servers />
   </component>
@@ -64,6 +65,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1580261901284" />
+    <state x="37" y="1145" key="new project wizard" timestamp="1580349904343">
+      <screen x="0" y="1080" width="1280" height="680" />
+    </state>
+    <state x="37" y="1145" key="new project wizard/0.0.1920.1040/0.1080.1280.680@0.1080.1280.680" timestamp="1580349904343" />
     <state x="1103" y="230" key="search.everywhere.popup" timestamp="1580302884386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
