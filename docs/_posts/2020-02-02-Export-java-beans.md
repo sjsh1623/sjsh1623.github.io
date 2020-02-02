@@ -16,7 +16,7 @@ description: MySQL 코드를 이용하여 JAVABEANS를 추출합니다.
  SELECT
   COLUMN_NAME, DATA_TYPE,
   CASE WHEN DATA_TYPE = "int" THEN CONCAT("private ","int ",COLUMN_NAME) 
-  CASE WHEN DATA_TYPE = "blob" THEN CONCAT("private ","String ",COLUMN_NAME) 
+  WHEN DATA_TYPE = "blob" THEN CONCAT("private ","String ",COLUMN_NAME, "//JSON타입을 위한 Blob입니다.") 
   ELSE CONCAT("private ","String ",COLUMN_NAME) 
   END
 FROM
@@ -32,7 +32,7 @@ AND
  SELECT
   COLUMN_NAME, DATA_TYPE,
   CASE WHEN DATA_TYPE = "int" THEN CONCAT("private ","int ",COLUMN_NAME) 
-  CASE WHEN DATA_TYPE = "blob" THEN CONCAT("private ","String ",COLUMN_NAME) 
+  WHEN DATA_TYPE = "blob" THEN CONCAT("private ","String ",COLUMN_NAME, "//JSON타입을 위한 Blob입니다.") 
   ELSE CONCAT("private ","String ",COLUMN_NAME) 
   END
 FROM
