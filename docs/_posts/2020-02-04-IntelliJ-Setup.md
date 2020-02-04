@@ -10,7 +10,7 @@ description: TO know what I have done
 
 ### Tomcat 한국어 Encoding
 
-![indtellijpng](https://raw.githubusercontent.com/sjsh1623/sjsh1623.github.io/master/assets/img/indtellijpng.png)
+![indtellijSetup](https://raw.githubusercontent.com/sjsh1623/sjsh1623.github.io/master/assets/img/IntelliJSetup.png)
 
 ``` content
 -Dfile.encoding=UTF-8
