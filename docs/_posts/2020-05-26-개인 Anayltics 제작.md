@@ -48,7 +48,31 @@ Editor: intelliJ, eclipse
 
 #### 구현 
 
+자바스크립트를 활용하여 사용자의 데이터를 가져온 후 ajax로 RestAPI 컨트롤러에 던져서 DB에 정보를 등록할 생각이다. 
 
+먼저 Javascript. 
 
+1. 사용자의 전 페이지를 가져온다. 
 
+   ```javascript
+   // 사용자가 링크를 탄 페이지
+   let referrer = document.referrer;
+   ```
 
+2. 사용자의 ip를 가져오는것과 동시에 ip기반으로 위치를 탐색한다 (API이용)
+
+   ```javascript
+   // 사용자의 ip주소
+   let ip;
+   $.ajax({
+       url: "https://jsonip.com",
+       async: false,
+       dataType: 'json',
+       success: function (data) {
+           ip = data.ip;
+       }
+   });
+   
+   ```
+
+   여기서 주의 해야 할것은 원래는 jQuery의 getJSON() 코드를 더 깔끔하고 보여지기 위해서 javascript의 AJAX를 사용했다. getJSON()을 사용하면 비동기화 특성상 가장 마지막에 작동한다.
